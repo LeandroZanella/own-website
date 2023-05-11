@@ -1,4 +1,4 @@
-import { faHome, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faEnvelope, faPerson, faBrain, faNetworkWired } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-scroll";
 
@@ -25,7 +25,7 @@ export default function BottomNavigation() {
         duration={1000}
         className="flex flex-col items-center justify-center text-gray-400 hover:text-white"
       >
-        <FontAwesomeIcon icon={faHome} size="lg" />
+        <FontAwesomeIcon icon={faPerson} size="lg" />
         <span className="text-xs font-medium">Sobre</span>
       </Link>
 
@@ -37,7 +37,7 @@ export default function BottomNavigation() {
         duration={1000}
         className="flex flex-col items-center justify-center text-gray-400 hover:text-white"
       >
-        <FontAwesomeIcon icon={faHome} size="lg" />
+        <FontAwesomeIcon icon={faNetworkWired} size="lg" />
         <span className="text-xs font-medium">Experiências</span>
       </Link>
 
@@ -49,7 +49,7 @@ export default function BottomNavigation() {
         duration={1000}
         className="flex flex-col items-center justify-center text-gray-400 hover:text-white"
       >
-        <FontAwesomeIcon icon={faHome} size="lg" />
+        <FontAwesomeIcon icon={faBrain} size="lg" />
         <span className="text-xs font-medium">Competências</span>
       </Link>
 
