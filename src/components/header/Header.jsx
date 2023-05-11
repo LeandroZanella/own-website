@@ -17,7 +17,7 @@ export default function Header() {
                 duration={1000}
                 className="text-white font-bold cursor-pointer"
               >
-                Início
+                Minha página pessoal 
               </Link>
             </div>
           </div>
