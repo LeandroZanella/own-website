@@ -8,9 +8,17 @@ export default function Header() {
         <div className="relative flex items-center justify-between h-16">
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0">
-              <a href="/" className="text-white font-bold">
-                Minha página pessoal
-              </a>
+            <Link
+                component="button"
+                activeClass="active"
+                to="start"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                className="text-white font-bold cursor-pointer"
+              >
+                Início
+              </Link>
             </div>
           </div>
 
@@ -22,7 +30,7 @@ export default function Header() {
                 spy={true}
                 smooth={true}
                 duration={1000}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-900 transition duration-800"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-900 transition duration- cursor-pointer"
               >
                 Início
               </Link>
@@ -33,7 +41,7 @@ export default function Header() {
                 spy={true}
                 smooth={true}
                 duration={1000}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-900 transition duration-800"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-900 transition duration- cursor-pointer"
               >
                 Sobre
               </Link>
@@ -44,7 +52,7 @@ export default function Header() {
                 spy={true}
                 smooth={true}
                 duration={1000}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-900 transition duration-800"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-900 transition duration- cursor-pointer"
               >
                 Experiências
               </Link>
@@ -55,7 +63,7 @@ export default function Header() {
                 spy={true}
                 smooth={true}
                 duration={1000}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-900 transition duration-800"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-900 transition duration- cursor-pointer"
               >
                 Competências
               </Link>
@@ -66,7 +74,7 @@ export default function Header() {
                 spy={true}
                 smooth={true}
                 duration={1000}
-                className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-900 transition duration-800"
+                className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-900 transition duration- cursor-pointer"
               >
                 Contato
               </Link>
